@@ -22,4 +22,20 @@ int main()
             k++;        
         }
     }
+    
+    while(i<5){
+        c[k]=a[i];
+        i++;
+        k++;
+    }
+    
+    while(j<7){
+        c[k]=b[j];
+        j++;
+        k++;
+    }
+    
+    for(int k=0; k<12; k++){
+        cout<<c[k]<<' ';
+    }
 }
